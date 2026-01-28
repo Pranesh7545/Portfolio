@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Briefcase, Code, BarChart3 } from "lucide-react";
+import { Briefcase, Code, BarChart3, Laptop2, Laptop } from "lucide-react";
 
 const internships = [
   {
@@ -41,6 +41,19 @@ export default function Internships() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
+          <motion.div
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, type: "spring" }}
+            className="inline-flex items-center justify-center w-16 h-16 rounded-2xl
+             bg-gradient-to-br from-cyan-500 to-blue-600
+             mb-5 shadow-lg shadow-cyan-500/25"
+          >
+            <Laptop2 size={32} className="text-white" />
+          </motion.div>
+
+
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight mb-4 text-slate-900">
             Internships
           </h2>

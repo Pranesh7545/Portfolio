@@ -5,6 +5,11 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Internships from "./components/Internships";
+import About from "./components/About";
+import Certifications from "./components/Certifications";
+import Services from "./components/Services";
+
+
 
 export default function App() {
   return (
@@ -14,8 +19,11 @@ export default function App() {
         <Hero />
         <Skills />
         <Education />
+        <Certifications/>
         <Internships/>
         <Projects />
+        <About/>
+        <Services/>
         <Contact />
       </main>
     </div>
