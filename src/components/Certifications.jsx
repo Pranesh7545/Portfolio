@@ -13,7 +13,7 @@ const certifications = [
   {
     title: "Power BI and SQL",
     issuer: "Nurture InfoTech",
-    date: "2024",
+    date: "2023",
     skills: ["Power BI", "Data Visualization", "SQL", "Data Analysis", "Dashboard Design"],
     color: "from-purple-500 to-pink-500",
     

@@ -4,8 +4,8 @@ import { Briefcase, Code, BarChart3, Laptop2, Laptop } from "lucide-react";
 const internships = [
   {
     role: "Full Stack Developer Intern",
-    company: "Tecsity",
-    duration: "Sep 2025 – Present",
+    company: "Nutz Technovation Pvt Ltd",
+    duration: "Dec 2025 – Present",
     description:
       "Worked on role-based admin panels, REST API development, and React integration following Agile practices.",
     icon: Code,
@@ -21,7 +21,7 @@ const internships = [
   {
     role: "Junior Data Analyst Intern",
     company: "Nurture InfoTech",
-    duration: "—",
+    duration: "March 2023-June 2023",
     description:
       "Built interactive Power BI dashboards with charts, slicers, and filters for data-driven insights.",
     icon: BarChart3,
